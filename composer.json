@@ -29,7 +29,9 @@
         "drupal/console": "~1.0",
         "drupal/ctools": "~8.0",
         "drupal/features": "~8.0",
-        "drupal/radix": "~8.3.0"
+        "drupal/radix": "~8.3.0",
+        "drupal/admin_toolbar": "8.1.15",
+        "drupal/asset_injector": "8.*"
     },
     "require-dev": {
         "behat/mink": "~1.7",
