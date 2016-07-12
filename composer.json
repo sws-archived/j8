@@ -27,11 +27,9 @@
         "drupal/core": "~8.1",
         "drush/drush": "~8.0",
         "drupal/console": "~1.0",
-        "drupal/ctools": "8.*",
-        "drupal/features": "8.*",
-        "su-sws/nobots": "dev-7.x-1.x",
-        "drupal/radix": "~8.3.0",
-        "su-sws/stanford_capx": "dev-7.x-2.x"
+        "drupal/ctools": "~8.0",
+        "drupal/features": "~8.0",
+        "drupal/radix": "~8.3.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -91,6 +89,12 @@
             ],
             "web/themes/stanford/{$name}/": [
                 "type:stanford-theme"
+            ],
+            "web/modules/custom/{$name}/": [
+                "type:custom-module"
+            ],
+            "web/themes/custom/{$name}/": [
+                "type:custom-theme"
             ]
         }
 
