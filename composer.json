@@ -70,7 +70,7 @@
             "web/core": [
                 "type:drupal-core"
             ],
-            "web/modules/contrib/{$name}": [
+            "web/modules/somethingesle/{$name}": [
                 "type:drupal-module"
             ],
             "web/modules/stanford/{$name}/": [
