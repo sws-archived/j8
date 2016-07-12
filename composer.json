@@ -21,6 +21,7 @@
     },
     "require": {
         "composer/installers": "^1.0.20",
+        "davidbarratt/custom-installer": "~1.0",
         "drupal-composer/drupal-scaffold": "^2.0.1",
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "~8.1",
@@ -29,6 +30,7 @@
         "drupal/ctools": "8.*",
         "drupal/features": "8.*",
         "su-sws/nobots": "dev-7.x-1.x",
+        "drupal/radix": "~8.3.0",
         "su-sws/stanford_capx": "dev-7.x-2.x"
     },
     "require-dev": {
@@ -70,28 +72,28 @@
             "web/core": [
                 "type:drupal-core"
             ],
-            "web/modules/somethingesle/{$name}": [
+            "web/modules/contrib/{$name}": [
                 "type:drupal-module"
-            ],
-            "web/modules/stanford/{$name}/": [
-                "type:stanford-module"
             ],
             "web/profiles/contrib/{$name}": [
                 "type:drupal-profile"
             ],
-            "web/profiles/stanford/{$name}/": [
-                "type:stanford-profile"
-            ],
             "web/themes/contrib/{$name}": [
                 "type:drupal-theme"
-            ],
-            "web/themes/stanford/{$name}/": [
-                "type:stanford-theme"
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
             ]
+        },
+        "custom-installer": {
+            "web/modules/stanford/{$name}/": [
+                "type:stanford-module"
+            ],
+            "web/themes/stanford/{$name}/": [
+                "type:stanford-theme"
+            ]
         }
+
     },
     "config": {
       "bin-dir": "bin/"
