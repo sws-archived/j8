@@ -27,11 +27,14 @@
         "drupal/core": "~8.1",
         "drush/drush": "~8.0",
         "drupal/console": "~1.0",
-        "drupal/ctools": "~8.0",
+        "drupal/ctools": "~8.3.0",
         "drupal/features": "~8.0",
         "drupal/radix": "~8.3.0",
         "drupal/admin_toolbar": "8.1.15",
-        "drupal/asset_injector": "8.*"
+        "drupal/asset_injector": "8.*",
+        "drupal/block_class": "8.*",
+        "drupal/token": "~8.1.0",
+        "drupal/pathauto": "~8.1.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
