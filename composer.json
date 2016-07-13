@@ -9,42 +9,101 @@
             "role": ""
         }
     ],
-    "repositories": {
-        "0": {
-            "type": "composer",
-            "url": "https://packagist.drupal-composer.org"
-        },
-        "drupal": {
+    "repositories": [
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    },
+    ],
     "require": {
         "composer/installers": "^1.0.20",
         "davidbarratt/custom-installer": "~1.0",
         "drupal-composer/drupal-scaffold": "^2.0.1",
         "cweagans/composer-patches": "~1.0",
-        "drupal/core": "~8.1",
+        "enyo/dropzone": "^v4.3.0",
+        "fengyuanchen/cropper": "dev-master#ed5ee3075e5a12fd301b1843d81e12100c791aca",
+        "drupal/core": "~8.1.0",
         "drush/drush": "~8.0",
         "drupal/console": "~1.0",
-        "drupal/ctools": "~8.3.0",
-        "drupal/features": "~8.0",
-        "drupal/radix": "~8.3.0",
-        "drupal/panels": "~8.3",
-        "drupal/page_manager": "~8.1",
-        "drupal/panopoly": "~8.2",
-        "drupal/layout_plugin": "~8.1",
-        "drupal/field_group": "~8.1",
-        "drupal/admin_toolbar": "8.1.15",
-        "drupal/asset_injector": "~8.1",
-        "drupal/block_class": "8.*",
-        "drupal/token": "~8.1.0",
-        "drupal/pathauto": "~8.1.0",
-        "drupal/editor_file": "8.1.1",
-        "drupal/redirect": "~8.1.0",
-        "drupal/xmlsitemap": "~8.1.0",
-        "drupal/calendar": "8.*",
-        "drupal/views_templates": "~8.1.0"
+        "drupal/ctools": "@dev",
+        "drupal/chosen": "@dev",
+        "drupal/features": "^3.0",
+        "drupal/radix": "dev-3.x",
+        "drupal/radix_layouts": "dev-3.x",
+        "drupal/panels": "@dev",
+        "drupal/panelizer": "@dev",
+        "drupal/page_manager": "dev-1.x",
+        "drupal/panopoly": "@dev",
+        "drupal/panopoly_widgets": "@dev",
+        "drupal/panopoly_theme": "dev-2.x",
+        "drupal/panopoly_images": "dev-2.x",
+        "drupal/panopoly_pages": "dev-2.x",
+        "drupal/layout_plugin": "dev-1.x",
+        "drupal/field_group": "dev-1.x",
+        "drupal/group": "@dev",
+        "drupal/admin_toolbar": "dev-1.x",
+        "drupal/linkicon": "dev-1.x",
+        "drupal/simple_sitemap": "dev-2.x",
+        "drupal/video_embed_field": "dev-1.x",
+        "drupal/embed": "dev-1.x",
+        "drupal/entity_browser": "@dev",
+        "drupal/media_entity": "dev-1.x",
+        "drupal/media_entity_browser": "@dev",
+        "drupal/media_entity_instagram": "dev-1.x",
+        "drupal/media_entity_image": "dev-1.x",
+        "drupal/media_entity_slideshow": "dev-1.x",
+        "drupal/media_entity_twitter": "dev-1.x",
+        "drupal/media_entity_document": "@dev",
+        "drupal/entity": "dev-1.x",
+        "drupal/entity_embed": "dev-1.x",
+        "drupal/better_normalizers": "dev-1.x",
+        "drupal/default_content": "@dev",
+        "drupal/config_devel": "dev-1.x",
+        "drupal/config_update": "dev-1.x",
+        "drupal/inline_entity_form": "@dev",
+        "drupal/password_policy": "@dev",
+        "drupal/asset_injector": "dev-1.x",
+        "drupal/block_class": "dev-1.x",
+        "drupal/token": "dev-1.x",
+        "drupal/token_filter": "@dev",
+        "drupal/editor_file": "1.1.0",
+        "drupal/redirect": "dev-1.x",
+        "drupal/xmlsitemap": "dev-1.x",
+        "drupal/calendar": "dev-1.x",
+        "drupal/views_templates": "dev-1.x",
+        "drupal/devel": "dev-1.x",
+        "drupal/title": "dev-2.x",
+        "drupal/crop": "dev-1.x",
+        "drupal/image_widget_crop": "@dev",
+        "drupal/breakpoint_js_settings": "dev-1.x",
+        "drupal/dropzonejs": "dev-1.x#23e0d81de407c74c10333e65fb5d4fae09494e09",
+        "drupal/entity_reference_revisions": "dev-1.x",
+        "drupal/focal_point": "dev-1.x#e08d5c555f5daf61c35f639762637b119f6a5c8e",
+        "drupal/google_analytics": "dev-2.x",
+        "drupal/libraries": "dev-3.x#548f3c2c47596c5242e37b18000e7b2ec930f66a",
+        "drupal/linkit": "dev-4.x",
+        "drupal/metatag": "dev-1.x",
+        "drupal/paragraphs": "dev-1.x",
+        "drupal/pathauto": "@dev",
+        "drupal/scheduler": "dev-1.x",
+        "drupal/views_load_more": "dev-1.x#178d32195253207cc74097296e25079a23f0b2e5",
+        "drupal/captcha": "dev-1.x",
+        "drupal/address": "@dev",
+        "drupal/dynamic_entity_reference": "@dev",
+        "drupal/view_unpublished": "@dev",
+        "drupal/search_api": "@dev",
+        "drupal/scheduled_updates": "@dev",
+        "drupal/workbench_moderation": "@dev",
+        "drupal/ds": "2.5.0",
+        "drupal/coffee": "@dev",
+        "drupal/diff": "@dev",
+        "drupal/field_help_helper": "@dev",
+        "drupal/menu_link_config": "@dev",
+        "drupal/editor_advanced_link": "@dev",
+        "drupal/rules": "@dev",
+        "drupal/menu_link_attributes": "@dev",
+        "drupal/pathologic": "@dev",
+        "drupal/field_formatter_class": "@dev"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -53,7 +112,8 @@
         "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
         "mikey179/vfsStream": "~1.2",
         "phpunit/phpunit": "~4.8",
-        "symfony/css-selector": "~2.8"
+        "symfony/css-selector": "~2.8",
+        "drupal/coder": "8.*"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -111,8 +171,51 @@
             "web/themes/custom/{$name}/": [
                 "type:custom-theme"
             ]
-        }
-
+        },
+        "patches": {
+            "drupal/password_policy": {
+                "patch two": "https://www.drupal.org/files/issues/2697777-php7-1.patch"
+            },
+            "drupal/core": {
+                "Plugin Lazy loading can cause usort warning":
+                "https://www.drupal.org/files/issues/Iterating-through-array--2699157.patch"
+            },
+            "drupal/ctools": {
+                "2747739 - Mega patch":
+                "https://www.drupal.org/files/issues/ctools--8.x-3.0-alpha26--1fe3649.patch"
+            },
+            "drupal/page_manager": {
+                "https://www.drupal.org/node/2601004":
+                "https://www.drupal.org/files/issues/page-manager-contextual-temp.patch"
+            },
+            "drupal/panelizer": {
+                "2747739 - Mega Patch":
+                "https://www.drupal.org/files/issues/panelizer--alpha2-1ddfa61--2747739-5.patch",
+                "2701349 - Generate new UUIDs for displays when switching from default to field storage":
+                "https://www.drupal.org/files/issues/2701349-2.patch",
+                "2700597 - Explicitly set the Panels IPE URL root when saving in Panelizer":
+                "https://www.drupal.org/files/issues/panelizer-ipe-url-root-handling.patch",
+                "2664682 - Implement admin UI for editing Panelizer defaults":
+                "https://www.drupal.org/files/issues/2664682-49.patch"
+            },
+            "drupal/panels": {
+                "2747739 - Mega Patch":
+                "https://www.drupal.org/files/issues/panels--beta4-4c4a3a7--2747739-17--binary.patch",
+                "2667754 - Allow other modules to disable the IPE based on custom logic":
+                "https://www.drupal.org/files/issues/2667754-3.patch",
+                "Bandaid tempstore patch":
+                "https://www.drupal.org/files/issues/bandaid.patch",
+                "2697587 - Wizard API integration":
+                "https://www.drupal.org/files/issues/2697587-48.patch"
+            },
+            "drush/drush": {
+                "Adding composer.json support to make-convert command":
+                "https://github.com/drush-ops/drush/commit/ce82b946d49b09cd33da5ca84feb24a6c35f8f8e.patch"            }
+            },
+            "drupal/menu_link_config": {
+                "https://www.drupal.org/node/2687913#comment-10972551":
+                "https://www.drupal.org/files/issues/2687913-1-config_menu_link-front-default-value.patch"
+            }
     },
     "config": {
       "bin-dir": "bin/"
