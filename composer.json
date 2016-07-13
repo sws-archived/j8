@@ -21,17 +21,20 @@
         "drupal-composer/drupal-scaffold": "^2.0.1",
         "cweagans/composer-patches": "~1.0",
         "enyo/dropzone": "^v4.3.0",
+        "fengyuanchen/cropper": "dev-master",
         "drupal/core": "~8.1.0",
         "drush/drush": "~8.0",
         "drupal/console": "~1.0",
         "drupal/ctools": "@dev",
+        "drupal/chosen": "@dev",
         "drupal/features": "^3.0",
         "drupal/radix": "^8.3.0",
+        "drupal/radix_layouts": "^8.3.0",
         "drupal/panels": "@dev",
         "drupal/panelizer": "@dev",
         "drupal/page_manager": "dev-1.x",
         "drupal/panopoly": "@dev",
-        "drupal/panopoly_widgets": "^8.2.0",
+        "drupal/panopoly_widgets": "@dev",
         "drupal/panopoly_theme": "^8.2.0",
         "drupal/panopoly_images": "^8.2.0",
         "drupal/panopoly_pages": "^2.0.0",
@@ -62,6 +65,7 @@
         "drupal/asset_injector": "~8.1.0.0",
         "drupal/block_class": "8.*",
         "drupal/token": "^8.1.0",
+        "drupal/token_filter": "@dev",
         "drupal/editor_file": "8.1.1",
         "drupal/redirect": "~8.1.0",
         "drupal/xmlsitemap": "~8.1.0",
@@ -70,6 +74,7 @@
         "drupal/devel": "~8.1.0",
         "drupal/title": "~8.2.0",
         "drupal/crop": "^8.1.0",
+        "drupal/image_widget_crop": "@dev",
         "drupal/breakpoint_js_settings": "^8.1.0",
         "drupal/dropzonejs": "dev-8.x-1.x#23e0d81de407c74c10333e65fb5d4fae09494e09",
         "drupal/entity_reference_revisions": "^8.1.0",
@@ -88,7 +93,17 @@
         "drupal/view_unpublished": "@dev",
         "drupal/search_api": "@dev",
         "drupal/scheduled_updates": "@dev",
-        "drupal/workbench_moderation": "@dev"
+        "drupal/workbench_moderation": "@dev",
+        "drupal/ds": "2.5.0",
+        "drupal/coffee": "@dev",
+        "drupal/diff": "@dev",
+        "drupal/field_help_helper": "@dev",
+        "drupal/menu_link_config": "@dev",
+        "drupal/editor_advanced_link": "@dev",
+        "drupal/rules": "@dev",
+        "drupal/menu_link_attributes": "@dev",
+        "drupal/pathologic": "@dev",
+        "drupal/field_formatter_class": "@dev"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -196,7 +211,11 @@
             "drush/drush": {
                 "Adding composer.json support to make-convert command":
                 "https://github.com/drush-ops/drush/commit/ce82b946d49b09cd33da5ca84feb24a6c35f8f8e.patch"            }
-        }
+            },
+            "drupal/menu_link_config": {
+                "https://www.drupal.org/node/2687913#comment-10972551":
+                "https://www.drupal.org/files/issues/2687913-1-config_menu_link-front-default-value.patch"
+            }
     },
     "config": {
       "bin-dir": "bin/"
