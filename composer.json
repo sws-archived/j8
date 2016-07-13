@@ -33,7 +33,6 @@
         "drupal/panels": "@dev",
         "drupal/panelizer": "@dev",
         "drupal/page_manager": "dev-1.x",
-        "drupal/panopoly": "@dev",
         "drupal/panopoly_widgets": "@dev",
         "drupal/panopoly_theme": "dev-2.x",
         "drupal/panopoly_images": "dev-2.x",
@@ -103,7 +102,21 @@
         "drupal/rules": "@dev",
         "drupal/menu_link_attributes": "@dev",
         "drupal/pathologic": "@dev",
-        "drupal/field_formatter_class": "@dev"
+        "drupal/field_formatter_class": "@dev",
+        "drupal/computed_field": "dev-1.x",
+        "drupal/colorbox": "dev-1.x",
+        "drupal/filefield_paths": "dev-1.x",
+        "drupal/menu_block": "dev-1.x",
+        "drupal/mollom": "dev-1.x",
+        "drupal/smart_trim": "dev-1.x",
+        "drupal/views_field_view": "dev-1.x",
+        "drupal/encrypt": "dev-3.x",
+        "drupal/config_inspector": "dev-1.x",
+        "drupal/markdown": "dev-1.x",
+        "drupal/geshifilter": "dev-1.x",
+        "drupal/rdfui": "dev-1.x",
+        "drupal/site_audit": "dev-2.x",
+        "drupal/config_readonly": "dev-1.x"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -113,7 +126,8 @@
         "mikey179/vfsStream": "~1.2",
         "phpunit/phpunit": "~4.8",
         "symfony/css-selector": "~2.8",
-        "drupal/coder": "8.*"
+        "drupal/coder": "8.*",
+        "drupal/security_review": "dev-1.x"
     },
     "conflict": {
         "drupal/drupal": "*"
