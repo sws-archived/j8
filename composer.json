@@ -72,7 +72,7 @@
         "drupal/views_templates": "dev-1.x",
         "drupal/devel": "dev-1.x",
         "drupal/title": "dev-2.x",
-        "drupal/crop": "dev-1.x",
+        "drupal/crop": "1.0.0-alpha2",
         "drupal/image_widget_crop": "@dev",
         "drupal/breakpoint_js_settings": "dev-1.x",
         "drupal/dropzonejs": "dev-1.x#23e0d81de407c74c10333e65fb5d4fae09494e09",
@@ -184,6 +184,9 @@
             ],
             "web/themes/custom/{$name}/": [
                 "type:custom-theme"
+            ],
+            "web/libraries/{$name}": [
+                "enyo/dropzone"
             ]
         },
         "patches": {
@@ -192,7 +195,9 @@
             },
             "drupal/core": {
                 "Plugin Lazy loading can cause usort warning":
-                "https://www.drupal.org/files/issues/Iterating-through-array--2699157.patch"
+                    "https://www.drupal.org/files/issues/Iterating-through-array--2699157.patch",
+                "mysql connectivity":
+                    "https://www.drupal.org/files/issues/mysql_connectivity-2610858-38.patch"
             },
             "drupal/ctools": {
                 "2747739 - Mega patch":
