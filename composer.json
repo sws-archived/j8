@@ -108,7 +108,7 @@
         "drupal/pathologic": "@dev",
         "drupal/field_formatter_class": "@dev",
         "drupal/computed_field": "dev-1.x",
-        "drupal/colorbox": "dev-1.x",
+        "drupal/colorbox": "@dev",
         "drupal/filefield_paths": "dev-1.x",
         "drupal/menu_block": "dev-1.x",
         "drupal/mollom": "dev-1.x",
@@ -206,50 +206,35 @@
                 "patch two": "https://www.drupal.org/files/issues/2697777-php7-1.patch"
             },
             "drupal/core": {
-                "Plugin Lazy loading can cause usort warning":
-                  "https://www.drupal.org/files/issues/Iterating-through-array--2699157.patch",
-                "mysql connectivity":
-                  "https://www.drupal.org/files/issues/mysql_connectivity-2610858-38.patch"
+                "Plugin Lazy loading can cause usort warning": "https://www.drupal.org/files/issues/Iterating-through-array--2699157.patch",
+                "mysql connectivity": "https://www.drupal.org/files/issues/mysql_connectivity-2610858-38.patch"
             },
             "drupal/ctools": {
-                "2747739 - Mega patch":
-                  "https://www.drupal.org/files/issues/ctools--8.x-3.0-alpha26--1fe3649.patch"
+                "2747739 - Mega patch": "https://www.drupal.org/files/issues/ctools--8.x-3.0-alpha26--1fe3649.patch"
             },
             "drupal/page_manager": {
-                "https://www.drupal.org/node/2601004":
-                  "https://www.drupal.org/files/issues/page-manager-contextual-temp.patch"
+                "https://www.drupal.org/node/2601004": "https://www.drupal.org/files/issues/page-manager-contextual-temp.patch"
             },
             "drupal/panelizer": {
-                "2747739 - Mega Patch":
-                  "https://www.drupal.org/files/issues/panelizer--alpha2-1ddfa61--2747739-5.patch",
-                "2701349 - Generate new UUIDs for displays when switching from default to field storage":
-                  "https://www.drupal.org/files/issues/2701349-2.patch",
-                "2700597 - Explicitly set the Panels IPE URL root when saving in Panelizer":
-                  "https://www.drupal.org/files/issues/panelizer-ipe-url-root-handling.patch",
-                "2664682 - Implement admin UI for editing Panelizer defaults":
-                  "https://www.drupal.org/files/issues/2664682-49.patch"
+                "2747739 - Mega Patch": "https://www.drupal.org/files/issues/panelizer--alpha2-1ddfa61--2747739-5.patch",
+                "2701349 - Generate new UUIDs for displays when switching from default to field storage": "https://www.drupal.org/files/issues/2701349-2.patch",
+                "2700597 - Explicitly set the Panels IPE URL root when saving in Panelizer": "https://www.drupal.org/files/issues/panelizer-ipe-url-root-handling.patch",
+                "2664682 - Implement admin UI for editing Panelizer defaults": "https://www.drupal.org/files/issues/2664682-49.patch"
             },
             "drupal/panels": {
-                "2747739 - Mega Patch":
-                  "https://www.drupal.org/files/issues/panels--beta4-4c4a3a7--2747739-17--binary.patch",
-                "2667754 - Allow other modules to disable the IPE based on custom logic":
-                  "https://www.drupal.org/files/issues/2667754-3.patch",
-                "Bandaid tempstore patch":
-                  "https://www.drupal.org/files/issues/bandaid.patch",
-                "2697587 - Wizard API integration":
-                  "https://www.drupal.org/files/issues/2697587-48.patch"
+                "2747739 - Mega Patch": "https://www.drupal.org/files/issues/panels--beta4-4c4a3a7--2747739-17--binary.patch",
+                "2667754 - Allow other modules to disable the IPE based on custom logic": "https://www.drupal.org/files/issues/2667754-3.patch",
+                "Bandaid tempstore patch": "https://www.drupal.org/files/issues/bandaid.patch",
+                "2697587 - Wizard API integration": "https://www.drupal.org/files/issues/2697587-48.patch"
             },
             "drush/drush": {
-                "Adding composer.json support to make-convert command":
-                  "https://github.com/drush-ops/drush/commit/ce82b946d49b09cd33da5ca84feb24a6c35f8f8e.patch"
+                "Adding composer.json support to make-convert command": "https://github.com/drush-ops/drush/commit/ce82b946d49b09cd33da5ca84feb24a6c35f8f8e.patch"
             },
             "drupal/menu_link_config": {
-                "https://www.drupal.org/node/2687913#comment-10972551":
-                  "https://www.drupal.org/files/issues/2687913-1-config_menu_link-front-default-value.patch"
+                "https://www.drupal.org/node/2687913#comment-10972551": "https://www.drupal.org/files/issues/2687913-1-config_menu_link-front-default-value.patch"
             },
             "drupal/scheduled_updates": {
-                "Webprofiler Compatibility":
-                  "https://www.drupal.org/files/issues/webprofiler_1.patch"
+                "Webprofiler Compatibility": "https://www.drupal.org/files/issues/webprofiler_1.patch"
             }
         }
     },
