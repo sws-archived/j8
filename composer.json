@@ -129,7 +129,6 @@
         "drupal/omega": "dev-5.x",
         "drupal/bootstrap_business": "dev-1.x",
         "su-sws/nobots": "dev-8.x-1.x",
-        "drupal/context": "@dev",
         "drupal/block_visibility_groups": "@dev"
     },
     "require-dev": {
