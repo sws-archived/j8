@@ -129,7 +129,8 @@
         "drupal/omega": "dev-5.x",
         "drupal/bootstrap_business": "dev-1.x",
         "su-sws/nobots": "dev-8.x-1.x",
-        "drupal/block_visibility_groups": "@dev"
+        "drupal/block_visibility_groups": "@dev",
+        "drupal/basic": "@dev"
     },
     "require-dev": {
         "behat/mink": "~1.7",
