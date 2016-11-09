@@ -17,6 +17,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/sherakama/composer-patches"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/SU-SWS/stanford_sites_jumpstart"
     }
   ],
   "require": {
@@ -102,7 +106,9 @@
     "drupal/view_unpublished": "dev-1.x#869c5b6b80f6badc0b39dff07ba852c9c967b9c7",
     "drupal/views_field_view": "dev-1.x#bb474bb15af3ff40ef642c4b7b8b602e04e742c7",
     "drupal/workbench_moderation": "~1.1",
-    "su-sws/nobots": "dev-8.x-1.x"
+    "su-sws/nobots": "dev-8.x-1.x",
+    "su-sws/stanford_date_formats": "dev-8.x-1.x",
+    "su-sws/stnaford_sites_jumpstart": "dev-8.x-1.x"
   },
   "require-dev": {
     "behat/mink": "~1.7",
