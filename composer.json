@@ -108,7 +108,7 @@
     "drupal/workbench_moderation": "~1.1",
     "su-sws/nobots": "dev-8.x-1.x",
     "su-sws/stanford_date_formats": "dev-8.x-1.x",
-    "su-sws/stnaford_sites_jumpstart": "dev-8.x-1.x"
+    "su-sws/stanford_sites_jumpstart": "dev-8.x-1.x"
   },
   "require-dev": {
     "behat/mink": "~1.7",
