@@ -29,6 +29,7 @@
     "drupal-composer/drupal-scaffold": "^2.0.1",
     "cweagans/composer-patches": "dev-master",
     "enyo/dropzone": "^v4.3.0",
+    "drmonty/chosen": "^1.6.1",
     "fengyuanchen/cropper": "dev-master#ed5ee3075e5a12fd301b1843d81e12100c791aca",
     "drush/drush": "~8.1",
     "drupal/console": "~1.0",
