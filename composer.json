@@ -17,6 +17,21 @@
     {
       "type": "vcs",
       "url": "https://github.com/SU-SWS/stanford_sites_jumpstart"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "jackmoore/colorbox",
+        "version": "master",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/jackmoore/colorbox/archive/master.zip",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
     }
   ],
   "require": {
@@ -27,6 +42,7 @@
     "cweagans/composer-patches": "^1.6",
     "enyo/dropzone": "^v4.3",
     "fengyuanchen/cropper": "dev-master",
+    "jackmoore/colorbox": "master",
 
     "drush/drush": "^8.1.0",
     "drupal/console": "^1.0.0",
@@ -85,7 +101,7 @@
     "drupal/pathologic": "dev-1.x#e0473546e51cbeaa3acb34e3208a0c503ca85613",
     "drupal/redirect": "~1.0",
     "drupal/rules": "~3.0",
-    "drupal/rdfui": "~1.0",
+    "drupal/rdfui": "dev-1.x#e82d700c7902f6630ff5ba98dd61d84492ba9ea9",
     "drupal/scheduled_updates": "~1.0",
     "drupal/scheduler": "~1.0",
     "drupal/smart_trim": "~1.0",
