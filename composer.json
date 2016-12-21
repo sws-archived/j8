@@ -26,7 +26,6 @@
     "drupal-composer/drupal-scaffold": "^2.2",
     "cweagans/composer-patches": "^1.6",
     "enyo/dropzone": "^v4.3",
-    "drmonty/chosen": "^1.6",
     "fengyuanchen/cropper": "dev-master",
 
     "drush/drush": "^8.1.0",
@@ -70,6 +69,7 @@
     "drupal/image_widget_crop": "~1.4",
     "drupal/inline_entity_form": "~1.0",
     "drupal/layout_plugin": "~1.0",
+    "drupal/libraries": "dev-3.x#dcd717dc541293ae5c4003f304921cca9200728c",
     "drupal/linkicon": "~1.4",
     "drupal/linkit": "~5.0",
     "drupal/menu_block": "~1.4",
@@ -184,7 +184,9 @@
       "web/libraries/{$name}/": [
         "type:component",
         "ckeditor/ckeditor",
-        "enyo/dropzone"
+        "enyo/dropzone",
+        "drmonty/chosen",
+        "components/jquery"
       ]
     },
     "enable-patching": true,
@@ -196,7 +198,8 @@
         "https://www.drupal.org/node/2699157": "https://www.drupal.org/files/issues/Iterating-through-array--2699157.patch",
         "https://www.drupal.org/node/2610858": "https://www.drupal.org/files/issues/mysql_connectivity-2610858-38.patch",
         "2652138 - ImageFormatter does not support SVGs": "https://www.drupal.org/files/issues/2652138-28.patch",
-        "2765525 - Add AJAX command to add style sheets to CKEditor instances": "https://www.drupal.org/files/issues/2765525-30-8.2.x.patch"
+        "2765525 - Add AJAX command to add style sheets to CKEditor instances": "https://www.drupal.org/files/issues/2765525-30-8.2.x.patch",
+        "2573807 - Fatal error: Call to a member function getTimestamp()": "https://www.drupal.org/files/issues/2573807-25-8.2.x.patch"
       },
       "drupal/page_manager": {
         "https://www.drupal.org/node/2601004": "https://www.drupal.org/files/issues/page-manager-contextual-temp.patch"
