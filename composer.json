@@ -46,6 +46,7 @@
 
     "drush/drush": "^8.1.0",
     "drupal/console": "^1.0.0",
+    "drupal/composer_deploy": "~1.0",
 
     "drupal/core": "~8.2.0",
 
@@ -247,7 +248,7 @@
   },
   "config": {
     "bin-dir": "bin/",
-    "preferred-install": "source",
+    "preferred-install": "dist",
     "component-dir": "web/libraries",
     "component-baseurl": "libraries"
   }
