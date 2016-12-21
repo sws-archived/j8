@@ -161,8 +161,9 @@
       "drush/contrib/{$name}": [
         "type:drupal-drush"
       ],
-      "web/libraries/{$name}": [
-        "type:drupal-library"
+      "web/libraries/{$name}/": [
+        "type:drupal-library",
+        "type:component"
       ]
     },
     "custom-installer": {
@@ -172,21 +173,18 @@
       "web/themes/stanford/{$name}/": [
         "type:stanford-theme"
       ],
-      "web/modules/custom/{$name}/": [
-        "type:custom-module"
-      ],
-      "web/themes/custom/{$name}/": [
-        "type:custom-theme"
-      ],
-      "vendor/{$vendor}/{$name}/": [
-        "type:library"
-      ],
       "web/libraries/{$name}/": [
         "type:component",
         "ckeditor/ckeditor",
         "enyo/dropzone",
         "drmonty/chosen",
         "components/jquery"
+      ],
+      "vendor/{$vendor}/{$name}/": [
+        "type:library"
+      ],
+      "web/profiles/{$name}/": [
+        "type:stanford-profile"
       ]
     },
     "enable-patching": true,
@@ -233,6 +231,8 @@
   },
   "config": {
     "bin-dir": "bin/",
-    "preferred-install": "source"
+    "preferred-install": "source",
+    "component-dir": "web/libraries",
+    "component-baseurl": "libraries"
   }
 }
