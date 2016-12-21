@@ -75,7 +75,7 @@
     "drupal/menu_block": "~1.4",
     "drupal/menu_link_attributes": "~1.0",
     "drupal/metatag": "~1.0",
-    "drupal/mollom": "~1.1",
+    "drupal/mollom": "dev-1.x#b6ebe6beeb5b735260341d24344872496f92ba6c",
     "drupal/panels": "^3.0.0",
     "drupal/panelizer": "3.0.0-alpha2",
     "drupal/page_manager": "~1.0",
