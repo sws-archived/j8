@@ -47,6 +47,18 @@
           "composer/installers": "~1.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "NextStepWebs/simplemde-markdown-editor",
+        "version": "1.11.2",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/NextStepWebs/simplemde-markdown-editor/archive/1.11.2.zip",
+          "type": "zip"
+        }
+      }
     }
   ],
   "require": {
@@ -59,6 +71,7 @@
     "fengyuanchen/cropper": "dev-master",
     "jackmoore/colorbox": "master",
     "drmonty/chosen": "1.6.1",
+    "NextStepWebs/simplemde-markdown-editor": "1.11.2",
 
     "drush/drush": "^8.1.0",
     "drupal/console": "^1.0.0",
@@ -129,6 +142,7 @@
     "drupal/rdfui": "dev-1.x#e82d700c7902f6630ff5ba98dd61d84492ba9ea9",
     "drupal/scheduled_updates": "~1.0",
     "drupal/scheduler": "~1.0",
+    "drupal/simplemde": "~1.0",
     "drupal/smart_trim": "~1.0",
     "drupal/search_api": "~1.0",
     "drupal/search_api_page": "~1.0",
@@ -146,7 +160,8 @@
 
     "su-sws/nobots": "dev-8.x-1.x",
     "su-sws/stanford_date_formats": "dev-8.x-1.x",
-    "su-sws/stanford_sites_jumpstart": "dev-8.x-1.x"
+    "su-sws/stanford_sites_jumpstart": "dev-8.x-1.x",
+    "su-sws/stanford_text_editor": "dev-8.x-1.x"
   },
   "require-dev": {
     "behat/mink": "^1.7",
