@@ -32,6 +32,21 @@
           "composer/installers": "~1.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "drmonty/chosen",
+        "version": "1.6.1",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/harvesthq/chosen/releases/download/v1.6.1/chosen_v1.6.1.zip",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
     }
   ],
   "require": {
@@ -43,6 +58,7 @@
     "enyo/dropzone": "^v4.3",
     "fengyuanchen/cropper": "dev-master",
     "jackmoore/colorbox": "master",
+    "drmonty/chosen": "1.6.1",
 
     "drush/drush": "^8.1.0",
     "drupal/console": "^1.0.0",
@@ -59,7 +75,7 @@
     "drupal/breakpoint_js_settings": "~1.0",
     "drupal/calendar": "dev-1.x#cb0ad0046801f793354f5070aa421867258826c0",
     "drupal/captcha": "~1.0",
-    "drupal/chosen": "~2.1",
+    "drupal/chosen": "2.0-beta2",
     "drupal/colorbox": "~1.2",
     "drupal/config_readonly": "~1.0",
     "drupal/ctools": "~3.0",
@@ -194,7 +210,6 @@
         "type:component",
         "ckeditor/ckeditor",
         "enyo/dropzone",
-        "drmonty/chosen",
         "components/jquery"
       ],
       "vendor/{$vendor}/{$name}/": [
@@ -250,6 +265,6 @@
     "bin-dir": "bin/",
     "preferred-install": "dist",
     "component-dir": "web/libraries",
-    "component-baseurl": "libraries"
+    "component-baseurl": "/libraries"
   }
 }
