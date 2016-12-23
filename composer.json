@@ -161,7 +161,8 @@
     "su-sws/nobots": "dev-8.x-1.x",
     "su-sws/stanford_date_formats": "dev-8.x-1.x",
     "su-sws/stanford_sites_jumpstart": "dev-8.x-1.x",
-    "su-sws/stanford_text_editor": "dev-8.x-1.x"
+    "su-sws/stanford_text_editor": "dev-8.x-1.x",
+    "drupal/views_block_filter_block": "dev-1.x#54df59b5a45c02e4a919986751672fd61efebb08"
   },
   "require-dev": {
     "behat/mink": "^1.7",
