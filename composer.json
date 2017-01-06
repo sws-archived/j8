@@ -15,12 +15,10 @@
       "url": "https://packages.drupal.org/8"
     },
     {
-      "type": "vcs",
-      "url": "https://github.com/SU-SWS/stanford_sites_jumpstart"
+      "type": "vcs", "url": "https://github.com/SU-SWS/stanford_sites_jumpstart"
     },
     {
-      "type": "vcs",
-      "url": "https://github.com/SU-SWS/stanford_basic"
+      "type": "vcs", "url": "https://github.com/SU-SWS/stanford_basic"
     },
     {
       "type": "package",
