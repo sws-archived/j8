@@ -76,7 +76,7 @@
     "NextStepWebs/simplemde-markdown-editor": "1.11.2",
 
     "drush/drush": "^8.1.0",
-    "drupal/console": "^1.0.0",
+    "drupal/console": "~1.0",
     "drupal/composer_deploy": "~1.0",
 
     "drupal/core": "~8.2.0",
@@ -287,8 +287,7 @@
         "https://www.drupal.org/node/2687913#comment-10972551": "https://www.drupal.org/files/issues/2687913-1-config_menu_link-front-default-value.patch"
       },
       "drupal/workbench_moderation": {
-        "2668006 - Provide logical access control for when IPE should be applied to moderated nodes": "https://www.drupal.org/files/issues/2668006-2.patch",
-        "2780691 - Incorrect EntityRevision paramconverter service definition causes a fatal error": "https://www.drupal.org/files/issues/workbench_moderation-invalid_service_definition.patch"
+        "2668006 - Provide logical access control for when IPE should be applied to moderated nodes": "https://www.drupal.org/files/issues/2668006-2.patch"
       },
       "drupal/scheduled_updates": {
         "Webprofiler Compatibility": "https://www.drupal.org/files/issues/webprofiler_1.patch",
