@@ -169,7 +169,8 @@
     "su-sws/stanford_sites_jumpstart": "dev-8.x-1.x",
     "su-sws/stanford_text_editor": "dev-8.x-1.x",
 
-    "su-sws/stanford_basic": "dev-8.x-1.x"
+    "su-sws/stanford_basic": "dev-8.x-1.x",
+    "drupal/config_split": "^1.0@beta"
   },
   "require-dev": {
     "behat/mink": "^1.7",
