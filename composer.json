@@ -171,7 +171,8 @@
     "su-sws/stanford_text_editor": "dev-8.x-1.x",
     "su-sws/stanford_layouts": "dev-8.x-1.x",
 
-    "su-sws/stanford_basic": "dev-8.x-1.x"
+    "su-sws/stanford_basic": "dev-8.x-1.x",
+    "drupal/ui_patterns": "^1.0@beta"
   },
   "require-dev": {
     "behat/mink": "^1.7",
