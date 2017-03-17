@@ -163,6 +163,7 @@
     "drupal/workbench_moderation": "~1.1",
 
     "su-sws/nobots": "dev-8.x-1.x",
+    "su-sws/stanford_block_types": "dev-8.x-1.x",
     "su-sws/stanford_date_formats": "dev-8.x-1.x",
     "su-sws/stanford_paragraph_types": "dev-8.x-1.x",
     "su-sws/stanford_page": "dev-8.x-3.x",
