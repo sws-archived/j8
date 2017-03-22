@@ -92,7 +92,7 @@
     "drupal/calendar": "dev-1.x#cb0ad0046801f793354f5070aa421867258826c0",
     "drupal/captcha": "~1.0",
     "drupal/chosen": "2.0-beta2",
-    "drupal/components": "~1.0",
+    "drupal/components": "dev-1.x#bc125626879c25d8d4840efa563c8011c785e2ec",
     "drupal/coffee": "~1.0",
     "drupal/colorbox": "~1.2",
     "drupal/config_readonly": "~1.0",
@@ -304,6 +304,9 @@
       },
       "drupal/entity_embed": {
         "2832504 - Send the CKEditor instance ID to the embed.preview route": "https://www.drupal.org/files/issues/2832504-2.patch"
+      },
+      "drupal/components": {
+        "2837836 - Allow modules to define components": "https://www.drupal.org/files/issues/2837836-fix-module-info.patch"
       }
     }
   },
