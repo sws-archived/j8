@@ -21,7 +21,7 @@ cd my-drupal-site
 Download all of the required files through composer by running:
 
 ```
-composer install
+composer install --prefer-source
 ```
 
 That should create a settings.php file for you and install drush and drupal console. Using the drupal console bundled in this package you can install a new site through the installation profile provided. From the root of this repository run:
