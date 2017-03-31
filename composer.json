@@ -153,7 +153,6 @@
     "drupal/search_autocomplete": "~1.0",
     "drupal/simple_sitemap": "~2.7",
     "drupal/taxonomy_menu": "~3.3",
-    "drupal/title": "dev-2.x#b163e2d50b3add3842ac67ea11cced5eb5d7ceaf",
     "drupal/token": "~1.0",
     "drupal/token_filter": "~1.0",
     "drupal/ui_patterns": "dev-1.x#a048da48d59ce07519cf95c79076c434e504806f",
