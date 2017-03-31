@@ -132,7 +132,7 @@
     "drupal/metatag": "~1.0",
     "drupal/mollom": "dev-1.x#b6ebe6beeb5b735260341d24344872496f92ba6c",
     "drupal/panels": "^3.0.0",
-    "drupal/panelizer": "3.0.0-alpha2",
+    "drupal/panelizer": "3.0.0-beta1",
     "drupal/page_manager": "~1.0",
     "drupal/paragraphs": "~1.0",
     "drupal/paragraphs_edit": "~1.0",
@@ -283,10 +283,6 @@
         "https://www.drupal.org/node/2601004": "https://www.drupal.org/files/issues/page-manager-contextual-temp.patch"
       },
       "drupal/panelizer": {
-        "2747739 - Mega Patch 8.x-3.0-alpha2 --> 54f0ac6e": "https://www.drupal.org/files/issues/panelizer--8.x-3.0-alpha2--54f0ac6e.patch",
-        "2701349 - Generate new UUIDs for displays when switching from default to field storage": "https://www.drupal.org/files/issues/2701349-2.patch",
-        "2700597 - Explicitly set the Panels IPE URL root when saving in Panelizer": "https://www.drupal.org/files/issues/panelizer-ipe-url-root-handling.patch",
-        "2664682 - Implement admin UI for editing Panelizer defaults": "https://www.drupal.org/files/issues/panelizer-2664682-93.patch",
         "2793841 - Properly integrate with Panels IPE": "https://www.drupal.org/files/issues/panelizer-panels-ipe-tempstore-id.patch"
       },
       "drupal/panels": {
