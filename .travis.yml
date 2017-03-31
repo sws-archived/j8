@@ -1,0 +1,23 @@
+# The stanford_travisci_scripts repository contains external scripts
+# used here to configure server and build a self-service site.
+# https://github.com/SU-SWS/stanford_travisci_scripts
+
+language: php
+php:
+  - '7.1'
+
+sudo: required
+
+mysql:
+  database: drupal
+  username: root
+  encoding: utf8
+
+before_install:
+  # download external repository with Stanford Travis CI scripts
+  - git clone -b behat-8.x-1.x https://github.com/SU-SWS/stanford_travisci_scripts.git $HOME/stanford_travisci_scripts
+  - chmod +x $HOME/stanford_travisci_scripts/bin/*.sh
+
+install:
+  # install j8 site, start webserver and selenium webdriver
+  - $HOME/stanford_travisci_scripts/bin/install.sh
