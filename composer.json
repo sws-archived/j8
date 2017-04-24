@@ -273,6 +273,9 @@
     },
     "enable-patching": true,
     "patches": {
+      "drupal/core": {
+        "2573807 - Fatal error: Call to a member function getTimestamp()": "https://www.drupal.org/files/issues/2573807-25-8.3.x.patch"
+      },
       "drupal/page_manager": {
         "https://www.drupal.org/node/2601004": "https://www.drupal.org/files/issues/page-manager-contextual-temp.patch"
       },
